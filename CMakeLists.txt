@@ -311,7 +311,7 @@ install(
 
 install(
   DIRECTORY
-    src/resources/platform_models
+    src/resources/plugin_models
   DESTINATION
     ${CMAKE_INSTALL_PREFIX}/backends/python
 )

@@ -1815,9 +1815,8 @@ ModelState::DefaultArtifactName()
 }
 
 std::string
-ModelState::PlatformModel()
+ModelState::PluginModel()
 {
-  // FIXME: Valida
   if (platform_ == "tensorflow_savedmodel") {
     return "tensorflow_savedmodel";
   } else {

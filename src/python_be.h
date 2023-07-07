@@ -240,8 +240,8 @@ class ModelState : public BackendModel {
   // The default name for the model file in model repo
   std::string DefaultArtifactName();
 
-  // Optional platform model path to be used to serve the model.
-  std::string PlatformModel();
+  // Optional plugin model path to be used to serve the model.
+  std::string PluginModel();
 
   // Launch auto-complete stub process.
   TRITONSERVER_Error* LaunchAutoCompleteStubProcess();
